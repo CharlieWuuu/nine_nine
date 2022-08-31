@@ -1,0 +1,71 @@
+* {
+  color: rgb(75, 75, 75);
+  background-color: rgb(232, 251, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.button_container .label_button {
+  cursor: pointer;
+}
+
+.table_container {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table_container .table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8px;
+}
+.table_container .table h4 {
+  font-size: 32px;
+  margin: 4px;
+}
+
+.line {
+  border: 0.2px solid black;
+  width: 70%;
+}
+
+.test_container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.test_container #start {
+  margin-top: 20px;
+}
+.test_container .question_container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.test_container .question_container button {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
